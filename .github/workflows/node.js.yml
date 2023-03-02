@@ -1,11 +1,11 @@
 name: CI
 
 on: 
-#события, которые запускают
+
 push:
-branches: ["main"]
+branches : [ "main" ]
 pull_request:
-branches: ["main"]
+branches : [ "main" ]
 
 jobs:
 my_build_job:
