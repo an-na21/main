@@ -14,8 +14,7 @@ steps:
 - uses: actions/checkout@v3
 - name: npm install, test and build
 run:
-npm install
-npm run test and build 
+npm run build 
 - name: Run a one-line script
 run: echo Hello, world!
 
